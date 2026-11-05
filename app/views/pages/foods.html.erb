@@ -1,0 +1,9 @@
+<h1>My Favorite Foods</h1>
+
+<%= image_tag 'cheese.jpeg', class: "img-sm" %>
+
+<ul>
+  <% @foods.each do |food| %>
+    <li><%= food %></li>
+  <% end %>
+</ul>

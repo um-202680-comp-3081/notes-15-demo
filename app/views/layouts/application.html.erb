@@ -18,6 +18,12 @@
   </head>
 
   <body>
-    <%= yield %>
+    <nav>
+      <p><%= link_to "Home", home_path %></p>
+    </nav>
+
+    <main>
+      <%= yield %>
+    </main>
   </body>
 </html>
